@@ -1,0 +1,64 @@
+/*Estilos da página Index*/
+body {
+    margin: 70px;
+    background-color: rgb(68, 145, 155);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.centralizar {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 30px;
+    font-size: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font: bold;
+}
+
+#menu li a:hover {
+    color: orange;
+}
+
+.p-30 {
+     padding: 30px;
+}
+
+.imagem {
+    border: 5px solid #505050;
+    border-radius: 30%;
+}
+
+.tm-social {
+    width: 36px;
+    height: 36px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.black {
+    color: black;
+}
+/*Estilos da página Contato*/
